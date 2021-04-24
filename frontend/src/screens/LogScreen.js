@@ -34,12 +34,12 @@ const LogScreen = ({location}) => {
         <Form onSubmit={submitHandler}>
           <Form.Group controlId='email'>
             <Form.Label>Email Address</Form.Label>
-            <Form.Controlb
+            <Form.Control
               type='email'
               placeholder='Enter email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-            ></Form.Controlb>
+            ></Form.Control>
           </Form.Group>
           <Form.Group controlId='email'>
             <Form.Label>Password</Form.Label>
